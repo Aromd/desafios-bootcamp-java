@@ -1,1 +1,2 @@
 Ejemplo de texto para segundo commit al repo de desafío 1.
+Se agrega una linea para hacer el commit del ejercicio 1 del desafio 2.
