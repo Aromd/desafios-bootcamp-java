@@ -1,94 +1,52 @@
 * {
   margin: 0;
-  box-sizing: border-box;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-  --accent-color: #8a9af1;
-  --background-color: #edf7ff;
-  --paragraph-color: #04146c;
-  --title-color: #0a2ff1;
-  --font-title: "MuseoModerno", cursive;
   font-size: 10px;
-  font-family: "Asap", sans-serif;
+  --primary-color: black;
+  --secondary-color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-body {
-  background-color: var(--background-color);
+main div:nth-child(odd) {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
-.upper-bar {
-    height: 2vh;
-    background-color: var(--accent-color);
+.date {
+  font-weight: 900;
+  font-size: 6.6rem;
+  padding: 6rem 0rem;
 }
 
-h1,
-h3 {
-  font-family: var(--font-title);
-  color: var(--title-color);
+.black h1{
+  font-size: 19.73rem;
 }
 
-main {
-  margin: 8rem;
+.friday {
+  padding: 12rem 0rem;
 }
 
-.main__title {
-  line-height: 11.73rem;
-  font-size: 11.73rem;
+.friday h1{
+  font-size: 21.73rem;
 }
 
-.main__subtitle {
-  color: var(--title-color);
-  font-weight: 300;
-  font-size: 5.2rem;
-}
-
-article p,
-strong,
-li {
-  color: var(--paragraph-color);
-}
-
-.highlight {
-  font-weight: 700;
-}
-
-article {
-  margin: 8rem 0rem;
-}
-
-article div {
-  margin: 8rem 0rem;
-}
-
-article p {
-  margin: 3rem 0rem;
-  font-size: 3.3rem;
-}
-
-
-.title__list {
+.discount {
   font-size: 4.8rem;
+  font-weight: 600;
 }
 
-ul {
-  margin: 3rem 0rem;
+.discount strong {
+  font-size: 6rem;
+  font-weight: 900;
 }
 
-li {
-  margin: 1rem 2rem;
-  font-weight: 700;
-  font-size: 3.33rem;
-}
-
-.hashtag {
-  overflow: hidden;
-}
-
-.hashtag p {
-  color: var(--accent-color);
-  font-family: "MuseoModerno", cursive;
-  font-size: 19.86rem;
-  font-weight: 700;
+.not-lose {
+  font-size: 5.86rem;
+  padding: 5rem 0rem;
 }
