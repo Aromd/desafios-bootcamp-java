@@ -21,7 +21,7 @@
 }
 
 .main__title span {
-  background-color: var(--text-bkg-color);
+  background-color: var(--text-background-color);
 }
 
 .main__subtitle {
