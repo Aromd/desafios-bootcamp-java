@@ -6,69 +6,37 @@
 
 :root {
   font-size: 10px;
-  --primary-color: black;
-  --secondary-color: white;
-  --blue-color: #0a2ff1;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  --text-color: #0a2ff1;
+  --text-background-color: #3ffff3;
 }
 
-body {
-  background-color: var(--blue-color);
+.main__container {
+  margin: 5rem 10rem;
 }
 
-main {
-  background-color: var(--secondary-color);
-  margin-top: 5vh;
-  margin-bottom: 12vh;
+.main__title {
+  font-size: 7.86rem;
+  color: var(--text-color);
 }
 
-main div:nth-child(2) {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+.main__title span {
+  background-color: var(--text-bkg-color);
 }
 
-.date {
-  font-weight: 900;
-  font-size: 6.6rem;
-  padding-bottom: 6rem;
+.main__subtitle {
+  font-size: 3.06rem;
+  color: var(--text-color);
+  margin: 5rem 0rem;
 }
 
-.date p {
-  color: var(--blue-color);
+.image {
+  width: 40rem;
+  height: auto;
 }
 
-.black h1{
-  font-size: 19.73rem;
-}
-
-.friday {
-  padding: 12rem 0rem;
-}
-
-.friday h1{
-  font-size: 21.73rem;
-}
-
-.discount {
-  font-size: 4.8rem;
-  font-weight: 600;
-  color: var(--blue-color);
-}
-
-.discount strong{
-  font-size: 4.8rem;
-  font-weight: 900;
-}
-
-.discount strong:nth-child(2){
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-}
-
-.not-lose {
-  font-size: 5.86rem;
-  color: var(--blue-color);
-  padding-top: 5rem;
+.image__container {
+  position: relative;
+  background-image: url(./assets/fondo.JPG);
+  width: fit-content;
 }
