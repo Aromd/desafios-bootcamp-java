@@ -5,41 +5,56 @@
 }
 
 :root {
-  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 10px;
-  --primary-color: #04146c;
-  --secondary-color: #0a2ff1;
+  --primary-color: #0a2ff1;
+  --secondary-color: #eff2ff;
+  --terciary-color: #8a9af1;
+  --white: #fff;
+  --accent-color: #3ffff3;
 }
 
-.item__container {
-  margin-bottom: 2rem;
+main {
+  margin: 3rem 1rem;
 }
 
-.item__container img {
-  width: 5.5rem;
-  height: auto;
-  margin-right: 1.5rem;
-  vertical-align: middle;
-}
-
-.item__container h2 {
-  display: inline-block;
-  text-transform: uppercase;
+main h1 {
+  font-size: 6.66rem;
+  color: var(--primary-color);
   font-weight: 700;
-  color: var(--secondary-color);
-  font-size: 2.15rem;
+  margin-bottom: 3rem;
 }
 
-.item__container p {
-  margin-left: 7rem;
-  width: 40%;
+main h2 {
+  font-size: 3rem;
+  font-weight: 400;
   color: var(--primary-color);
-  font-size: 1.99rem;
+  background-color: var(--secondary-color);
+  display: inline;
+  margin-right: 1rem;
 }
 
-.title {
-  font-weight: 900;
-  color: var(--primary-color);
-  margin-bottom: 2rem;
-  font-size: 3.74rem;
+img {
+  width: 30%;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+button {
+  background-color: var(--terciary-color);
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  display: block;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.bottom-line {
+  height: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: var(--accent-color);
 }
