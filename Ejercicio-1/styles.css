@@ -6,9 +6,10 @@
 
 :root {
   font-size: 10px;
+  font-family: "Roboto", sans-serif;
   --primary-color: #0a2ff1;
   --secondary-color: #04146c;
-  --white: #fff;
+  --accent-color: #eff2ff;
 }
 
 @font-face {
@@ -18,65 +19,56 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Roboto-light";
-  src: url('../assets/fonts/Roboto-Light.ttf');
-  font-weight: 300;
+main {
+  margin: 5rem;
 }
 
-@font-face {
-  font-family: "Roboto-regular";
-  src: url('../assets/fonts/Roboto-Regular.ttf');
+h1 {
+  font-family: "Coolvetica", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  color: var(--primary-color);
+  font-size: 12rem;
+  margin-bottom: 8rem;
 }
 
-header {
+.services__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service__container {
+  width: 20%;
+  padding: 2em;
+  background-color: var(--accent-color);
+  border-radius: 0.8rem;
+}
+
+.service__container div:first-child {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 96rem;
-  margin: 0rem auto;
-  gap: 5rem;
-}
-
-header h1 {
-  font-family: "Coolvetica", sans-serif;
-  font-size: 12rem;
-  font-weight: 400;
-  color: var(--primary-color);
-  text-align: center;
-}
-
-header p {
-  font-family: "Roboto-light", sans-serif;
-  font-weight: 300;
-  font-size: 4rem;
-  text-align: center;
-  color: var(--secondary-color);
-}
-
-.btn__container {
-  display: flex;
-  flex-direction: column;
   gap: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
-button {
-  cursor: pointer;
-  border: 3px solid var(--primary-color);
-  padding: 1rem 4rem;
-  font-family: "Roboto-regular", sans-serif;
-  font-weight: 400;
-  font-size: 4rem;
+.service__container div:first-child h2 {
+  font-size: 3.733rem;
+  color: var(--primary-color);
+  font-weight: 900;
 }
 
-.btn-primary {
-  background-color: var(--primary-color);
-  color: var(--white);
+.icon {
+  width: 25%;
 }
 
-.btn-secondary {
-  background-color: var(--white);
+#apple__icon {
+  width: 18%;
+}
+
+.service__description {
+  font-size: 2.4rem;
   color: var(--secondary-color);
+  font-weight: 400;
+  text-align: center;
 }
