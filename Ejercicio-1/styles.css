@@ -6,196 +6,77 @@
 
 :root {
   font-size: 10px;
-  font-family: "Roboto", sans-serif;
   --primary-color: #0a2ff1;
   --secondary-color: #04146c;
-  --terciary-color: #3957f1;
-  --btn-primary-color: #2c00cc;
-  --btn-secondary-color: #f98500;
+  --white: #fff;
 }
 
-#logo {
-  width: 5%;
+@font-face {
+  font-family: "Coolvetica";
+  src: url('../assets/fonts/coolvetica-rg.otf');
+  font-weight: 400;
+  font-style: normal;
 }
 
-.top-line {
-  height: 1.8rem;
-  background-color: var(--terciary-color);
+@font-face {
+  font-family: "Roboto-light";
+  src: url('../assets/fonts/Roboto-Light.ttf');
+  font-weight: 300;
 }
 
-.nav__container {
-  display: flex;
-  gap: 5rem;
-  margin: 3rem;
+@font-face {
+  font-family: "Roboto-regular";
+  src: url('../assets/fonts/Roboto-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
 }
 
-nav ul {
-  display: flex;
-  gap: 8rem;
-  align-items: center;
-}
-
-nav li {
-  list-style: none;
-}
-
-.nav__item {
-  text-decoration: none;
-  color: var(--secondary-color);
-  font-size: 2.4rem;
-  text-transform: uppercase;
-}
-
-.nav__item:visited {
-  color: var(--secondary-color);
-}
-
-.active {
-  font-weight: 700;
-}
-
-.header__container {
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  margin: 8rem auto 4rem auto;
+  width: 96rem;
+  margin: 0rem auto;
+  gap: 5rem;
 }
 
 header h1 {
-  font-family: "Roboto Slab", serif;
-  color: var(--primary-color);
-  font-size: 9.6rem;
-}
-
-header h2 {
-  font-size: 3.464rem;
-  color: var(--secondary-color);
+  font-family: "Coolvetica", sans-serif;
+  font-size: 12rem;
   font-weight: 400;
+  color: var(--primary-color);
+  text-align: center;
 }
 
-header img {
-  width: 100%;
-  height: auto;
-}
-
-.form__container {
-  margin: 3rem;
-}
-
-.form__title {
-  font-size: 4.53rem;
-  color: var(--btn-primary-color);
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
-  margin: 3rem 0rem;
-}
-
-.contact__form {
-  display: flex;
-  flex-direction: column;
-  max-width: 50rem;
-}
-
-form p,
-.contact__form label {
-  font-size: 3.064rem;
+header p {
+  font-family: "Roboto-light", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+  text-align: center;
   color: var(--secondary-color);
-  margin: 1.5rem 0rem;
 }
 
-.contact__form label {
-  font-weight: 700;
-}
-
-.contact__form input {
-  height: 5rem;
-  padding: 1rem;
-  font-family: "Roboto", sans-serif;
-}
-
-.contact__form span {
-  color: red;
-}
-
-.contact__form textarea {
-  height: 10rem;
-  padding: 1rem;
-  font-family: "Roboto", sans-serif;
-}
-
-.buttons__form {
-  display: flex;
-  gap: 4rem;
-  margin-top: 3rem;
-}
-
-.buttons__form input {
-  color: #fff;
-  font-size: 3.2rem;
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
-  padding: 0.5rem 2rem;
-  border: none;
-  border-radius: 0.8rem;
-  cursor: pointer;
-}
-
-input[type="reset"] {
-  background-color: var(--btn-secondary-color);
-}
-
-input[type="submit"] {
-  background-color: var(--btn-primary-color);
-}
-
-.services {
-  display: flex;
-  margin: 7rem 7rem 0rem 7rem;
-}
-
-.services img {
-  margin-bottom: -5%;
-  width: 50%;
-  height: auto;
-  align-self: flex-end;
-}
-
-.services__container {
+.btn__container {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
-.services h2 {
-  font-size: 4.533rem;
-  font-family: "Roboto Slab", serif;
-  color: var(--primary-color);
-}
-
-.services strong {
-  font-weight: 700;
-  color: var(--secondary-color);
-  font-size: 2.4rem;
-}
-
-.services p {
+button {
+  cursor: pointer;
+  border: 3px solid var(--primary-color);
+  padding: 1rem 4rem;
+  font-family: "Roboto-regular", sans-serif;
   font-weight: 400;
+  font-size: 4rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-secondary {
+  background-color: var(--white);
   color: var(--secondary-color);
-  font-size: 2.4rem;
-}
-
-.footer__container {
-  background-color: var(--terciary-color);
-  padding: 3rem;
-}
-
-.footer__container img {
-  width: 25rem;
-  height: auto;
-  margin-left: 5rem;
-}
-
-.footer__contacto {
-  margin-top: 20.5rem;
 }
