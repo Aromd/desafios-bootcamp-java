@@ -5,56 +5,67 @@
 }
 
 :root {
-  font-family: "Poppins", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 10px;
-  --primary-color: #0a2ff1;
-  --secondary-color: #eff2ff;
-  --terciary-color: #8a9af1;
-  --white: #fff;
-  --accent-color: #3ffff3;
+  --primary-color: #04146c;
+  --secondary-color: #0a2ff1;
+  --terciary-color: #414166;
 }
 
-main {
-  margin: 3rem 1rem;
-}
-
-main h1 {
-  font-size: 6.66rem;
+form {
+  width: 50rem;
+  margin: 0rem auto;
   color: var(--primary-color);
   font-weight: 700;
-  margin-bottom: 3rem;
 }
 
-main h2 {
-  font-size: 3rem;
-  font-weight: 400;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  display: inline;
-  margin-right: 1rem;
+h1 {
+  text-align: center;
+  margin: 2rem auto;
+  font-weight: 700;
+  font-size: 2.4rem;
 }
 
-img {
-  width: 30%;
-  height: auto;
-  margin-right: 0.5rem;
-}
-
-button {
-  background-color: var(--terciary-color);
-  border: none;
-  color: var(--white);
-  cursor: pointer;
-  display: block;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  padding: 1rem;
+.form__element {
+  width: 50rem;
+  height: 5rem;
   margin-bottom: 1rem;
-  margin-top: 3rem;
+  padding: 1rem;
 }
 
-.bottom-line {
-  height: 0.5rem;
-  margin-top: 0.5rem;
-  background-color: var(--accent-color);
+input {
+  display: block;
+  color: var(--terciary-color);
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 1.86rem;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  font-weight: 600;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.btn-link {
+  text-decoration: none;
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 1.86rem;
+  font-weight: 400;
+  background: none;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.btn__container{
+  width: 50rem;
+  margin: 0rem auto;
+  text-align: center;
 }
