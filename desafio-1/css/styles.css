@@ -1,78 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  :root {
-    font-size: 10px;
-    font-family: "Mulish", sans-serif;
-    --primary-color: #3957f1;
-    --secondary-color: #15163d;
-    --terciary-color: #fff;
-  }
-  
-  main {
-    margin: 10%;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    align-items: center;
-  }
-  
-  h1 {
-    font-size: 5.33rem;
-    color: var(--primary-color);
-    font-weight: 700;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 2.8rem;
-    color: var(--secondary-color);
-    font-weight: 400;
-    text-align: center;
-    margin: 1rem 1rem;
-  }
-  
-  section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem 0rem;
-    width: 100%;
-  }
-  
-  .card {
-    box-shadow: 2px 2px 3px rgba(75, 75, 75, 0.5);
-    width: 100%;
-    cursor: pointer;
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  @media screen and (min-width: 768px) {
-    main {
-      margin: 4%;
-    }
-  
-    section {
-      justify-content: space-between;
-    }
-  
-    .card {
-      max-width: 48%;
-    }
-  }
-  
-  @media screen and (min-width: 992px) {
-    main {
-      margin: 5%;
-    }
-  
-    .card {
-      max-width: 23%;
-    }
-  }
+:root {
+  --bs-body-font-family: "Mulish", sans-serif;
+  --text-color: #04146c;
+  --name-color: #0a2ff1;
+}
+
+h1 {
+  color: var(--text-color) !important;
+  font-size: 65.3px !important;
+}
+
+h2 {
+  color: var(--name-color) !important;
+  font-size: 40px !important;
+}
+
+p {
+  color: var(--text-color) !important;
+  font-size: 24px !important;
+}
+
+a {
+  color: var(--text-color) !important;
+  font-size: 24px !important;
+  border: 2px solid var(--name-color) !important;
+  border-radius: 0 !important;
+}
+
+img {
+  max-width: 60% !important;
+}
