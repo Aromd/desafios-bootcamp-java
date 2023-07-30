@@ -12,11 +12,11 @@ label {
 }
 
 .label__1 {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .label__2 {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 p {
