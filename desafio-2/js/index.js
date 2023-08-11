@@ -1,4 +1,5 @@
-const iniciarCalculo = () => {
-  let ingresoTotal = obtenerDatosDelUsuario("ingreso total");
-  calcularPresupuesto(ingresoTotal);
+const iniciarLogin = () => {
+  let nombreDeUsuario = obtenerDatosDelUsuario("nombre de usuario");
+  let contraseña = obtenerDatosDelUsuario("contraseña");
+  validarDatos(nombreDeUsuario, contraseña);
 };
