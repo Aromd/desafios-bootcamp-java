@@ -1,34 +1,21 @@
-:root {
-  --bs-body-font-family: "Mulish", sans-serif;
-  --text-color: #04146c;
-  --line-color: #8a9af1;
-  --button-color: #5974ff;
-  --bs-border-color: var(--line-color);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-label {
-  font-size: 1.5rem !important;
-  color: var(--text-color) !important;
-}
-
-.label__1 {
-  font-weight: 600 !important;
-}
-
-.label__2 {
-  font-weight: 400 !important;
-}
-
-p {
-  font-size: 1.083rem !important;
-  color: var(--text-color) !important;
-  font-style: italic !important;
+main {
+  margin: 4rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 button {
-  font-size: 1.5rem !important;
-  font-weight: 700 !important;
-  background-color: var(--button-color) !important;
-  width: 9.375rem !important;
-  height: 3.125rem !important;
+  background-color: aquamarine;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 700;
 }
