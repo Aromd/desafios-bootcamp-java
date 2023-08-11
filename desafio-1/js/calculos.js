@@ -1,4 +1,6 @@
 const obtenerDatosDelUsuario = (datoARecuperar) => {
+
+    let respuesta;
     
     do {
         respuesta = Number(prompt(`Ingrese ${datoARecuperar} del producto`));
